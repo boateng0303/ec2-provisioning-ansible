@@ -1,0 +1,5 @@
+--- 
+- hosts: localhost  # local because we running the playbook on this machine to talk to the api of aws
+  connection: local # local because thia tell ansible that the playbook has to be executed on the same machine
+  roles: 
+    - ec2
